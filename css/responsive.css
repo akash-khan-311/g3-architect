@@ -17,6 +17,19 @@
     flex-direction: column;
     justify-content: center;
   }
+  .teams-container {
+    flex-direction: column-reverse;
+  }
+  .teams-content {
+    padding: 30px 10px;
+    text-align: center;
+  }
+  .teams-img-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .teams-img-container img {
+    width: 100%;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -34,12 +47,29 @@
   #nav {
     flex-direction: column;
   }
+  .teams-container {
+    flex-direction: column-reverse;
+  }
+  .teams-content {
+    padding: 30px 50px;
+    text-align: center;
+  }
+  .teams-img-container img {
+    width: 100%;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   #header {
     padding: 20px;
+  }
+  .teams-container {
+    flex-direction: column-reverse;
+  }
+  .teams-content {
+    text-align: center;
+    padding: 30px 80px;
   }
 }
 
