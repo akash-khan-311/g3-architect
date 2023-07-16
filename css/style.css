@@ -29,16 +29,14 @@ p {
   line-height: 20px;
   margin: 20px 0;
 }
-img {
-  width: 100%;
-}
+
 a {
   text-decoration: none;
 }
 li {
   list-style: none;
 }
-span {
+.orange {
   color: #ff900e;
 }
 .btn-primary {
@@ -109,4 +107,35 @@ span {
   max-width: 800px;
   text-align: center;
   margin: 50px auto;
+}
+.banner-img {
+  width: 100%;
+}
+
+/* Main Styles */
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Teams styles */
+.teams-container {
+  display: flex;
+  align-items: center;
+  padding: 85px 0;
+}
+
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.teams-content {
+  padding: 0 70px;
+}
+.quick {
+  font-weight: 500;
+  color: #727272;
 }
