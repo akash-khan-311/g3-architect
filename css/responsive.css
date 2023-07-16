@@ -6,6 +6,9 @@
   h1 {
     font-size: 50px;
   }
+  h3 {
+    font-size: 20px;
+  }
   #header {
     padding: 20px;
   }
@@ -35,6 +38,38 @@
   }
   .fact-item {
     width: 100%;
+  }
+  .fact-content {
+    text-align: center;
+  }
+  .sponsor-img-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+  .sponsor-img-container a {
+    margin-bottom: 30px;
+  }
+  .feature-container {
+    grid-template-columns: 1fr;
+  }
+  .feature-content {
+    padding: 0px 20px;
+  }
+  .feature-img {
+    margin-left: 0;
+    padding: 20px;
+  }
+  .feature-img img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .badge {
+    width: 200px;
+  }
+
+  .badge h1 {
+    font-size: 30px;
   }
 }
 
@@ -70,6 +105,37 @@
   .fact-item {
     width: 100%;
   }
+  .fact-content {
+    text-align: center;
+  }
+  .sponsor-img-container {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+  .sponsor-img-container a {
+    margin-bottom: 50px;
+  }
+  .feature-container {
+    grid-template-columns: 1fr;
+  }
+  .feature-content {
+    padding: 0px 20px;
+  }
+  .feature-img {
+    margin-left: 0;
+    padding: 20px;
+  }
+  .feature-img img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .badge {
+    width: 200px;
+  }
+
+  .badge h1 {
+    font-size: 30px;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -88,6 +154,37 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+  .fact-content {
+    text-align: center;
+  }
+  .sponsor-img-container {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+  }
+  .sponsor-img-container a {
+    margin-bottom: 40px;
+  }
+  .feature-container {
+    grid-template-columns: 1fr;
+  }
+  .feature-content {
+    padding: 0px 20px;
+  }
+  .feature-img {
+    margin-left: 0;
+    padding: 20px;
+  }
+  .feature-img img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .badge {
+    width: 200px;
+  }
+
+  .badge h1 {
+    font-size: 30px;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -105,6 +202,24 @@
   .teams-content {
     padding: 30px 40px;
     width: 50%;
+  }
+  .feature-img {
+    margin-left: 0;
+    width: 100%;
+  }
+  .feature-img img {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .badge {
+    width: 250px;
+  }
+  .badge h1 {
+    font-size: 40px;
+  }
+  .fact-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
